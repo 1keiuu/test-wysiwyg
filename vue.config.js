@@ -1,12 +1,15 @@
-var webpack = require('webpack');
+var webpack = require("webpack");
 
 module.exports = {
   configureWebpack: {
     plugins: [
       new webpack.ProvidePlugin({
-        'window.Quill': 'quill/dist/quill.js',
-        'Quill': 'quill/dist/quill.js'
+        "window.Quill": "quill/dist/quill.js",
+        Quill: "quill/dist/quill.js",
       }),
-    ]
-  }
-}
+    ],
+  },
+  publicPath: "./",
+  assetsDir: "",
+  outputDir: "dist",
+};

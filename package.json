@@ -5,11 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "compressorjs": "^1.0.6",
     "core-js": "^3.6.4",
+    "gh-pages": "^2.2.0",
     "quill-image-resize-module": "3.0.0",
     "vue": "^2.6.11",
     "vue-quill-editor": "^3.0.6",
