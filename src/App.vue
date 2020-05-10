@@ -243,8 +243,9 @@ p.--active {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 10px;
+  padding-top: 10px;
   background: #fff;
+  z-index: 2;
 }
 .tab-item {
   width: 50%;
@@ -281,8 +282,8 @@ p.--active {
   top: 0;
   width: 30px;
 }
-::v-deep img {
-  width: 100% !important;
+::v-deep .preview img {
+  max-width: 100%;
 }
 
 ::v-deep .preview p {
