@@ -219,7 +219,7 @@ export default {
   border: 0;
 }
 ::v-deep .ql-editor {
-  margin-top: 130px;
+  margin-top: 45px;
   min-height: 100vh;
 }
 ::v-deep .ql-align-center {
@@ -253,7 +253,7 @@ p.--active {
   padding-top: 110px;
 }
 .preview {
-  padding: 100px 0 15px;
+  padding: 100px 15px 0;
 }
 .image-wrapper {
   position: fixed;
@@ -281,7 +281,29 @@ p.--active {
   top: 0;
   width: 30px;
 }
-v-deep img {
+::v-deep img {
   width: 100% !important;
+}
+
+::v-deep .preview p {
+  font-size: 13px;
+}
+::v-deep .preview h1 {
+  font-size: 26px;
+}
+::v-deep .preview h2 {
+  font-size: 19.5px;
+}
+::v-deep .preview h3 {
+  font-size: 15px;
+}
+::v-deep .preview h4 {
+  font-size: 13px;
+}
+::v-deep .preview h5 {
+  font-size: 11px;
+}
+::v-deep .preview h6 {
+  font-size: 10px;
 }
 </style>
